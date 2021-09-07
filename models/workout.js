@@ -14,7 +14,7 @@ const workoutSchema = new Schema({
         },
         name: {
             type: String,
-            trim: TransformStreamDefaultController,
+            trim: true,
             required: "Enter an exercise name"
         },
         duration: {
